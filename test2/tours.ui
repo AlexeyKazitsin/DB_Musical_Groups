@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tours</class>
+ <widget class="QMainWindow" name="Tours">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>927</width>
+    <height>549</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Гастроли</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="twTours">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>40</y>
+      <width>491</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnConnect_1">
+    <property name="geometry">
+     <rect>
+      <x>361</x>
+      <y>0</y>
+      <width>123</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Присоединиться</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="teResult">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>360</y>
+      <width>808</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>338</width>
+      <height>320</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="lbName">
+       <property name="text">
+        <string>Название</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1" colspan="2">
+      <widget class="QLineEdit" name="leName"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="lbStartTime">
+       <property name="text">
+        <string>Время начала</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" colspan="2">
+      <widget class="QLineEdit" name="leStartTime"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="lbEndTime">
+       <property name="text">
+        <string>Время конца</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1" colspan="2">
+      <widget class="QLineEdit" name="leEndTime"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="lbDate">
+       <property name="text">
+        <string>Дата</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="lbTicketPrice">
+       <property name="text">
+        <string>Цена билета</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1" colspan="2">
+      <widget class="QLineEdit" name="lePrice"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="lbAmountSoldTickets">
+       <property name="text">
+        <string>Пролажи</string>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1" colspan="2">
+      <widget class="QLineEdit" name="leSoldTickets"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="lbBand">
+       <property name="text">
+        <string>Группа</string>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1" colspan="2">
+      <widget class="QLineEdit" name="leBand"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="lbPlace">
+       <property name="text">
+        <string>Место</string>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1" colspan="2">
+      <widget class="QLineEdit" name="lePlace"/>
+     </item>
+     <item row="8" column="1">
+      <widget class="QPushButton" name="btnAdd_1">
+       <property name="text">
+        <string>Добавить</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QPushButton" name="btnDel_1">
+       <property name="text">
+        <string>Удалить</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1" colspan="2">
+      <widget class="QLineEdit" name="leDate"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="btnSelectAll_1">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>0</y>
+      <width>97</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать все</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>927</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

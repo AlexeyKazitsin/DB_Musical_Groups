@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Groups</class>
+ <widget class="QMainWindow" name="Groups">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>828</width>
+    <height>448</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Группы</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnSelectAll_1">
+    <property name="geometry">
+     <rect>
+      <x>711</x>
+      <y>0</y>
+      <width>97</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать все</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnConnect_1">
+    <property name="geometry">
+     <rect>
+      <x>252</x>
+      <y>0</y>
+      <width>123</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Присоединиться</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>34</y>
+      <width>306</width>
+      <height>218</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="lbBandName">
+       <property name="text">
+        <string>Название</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1" colspan="3">
+      <widget class="QLineEdit" name="leBandName"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="lbCreationDate">
+       <property name="text">
+        <string>Дата создания</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" colspan="3">
+      <widget class="QLineEdit" name="leCreationDate"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="lbBandCountry">
+       <property name="text">
+        <string>Страна</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1" colspan="3">
+      <widget class="QLineEdit" name="leBandCountry"/>
+     </item>
+     <item row="3" column="0" colspan="2">
+      <widget class="QLabel" name="lbMembersAmount">
+       <property name="text">
+        <string>Количество участников</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2" colspan="2">
+      <widget class="QLineEdit" name="leMembersAmount"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="lbGenre">
+       <property name="text">
+        <string>Жанр</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1" colspan="3">
+      <widget class="QLineEdit" name="leGenre"/>
+     </item>
+     <item row="5" column="1" colspan="2">
+      <widget class="QPushButton" name="btnAdd_1">
+       <property name="text">
+        <string>Добавить</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QPushButton" name="btnDel_1">
+       <property name="text">
+        <string>Удалить</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTextEdit" name="teResult">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>260</y>
+      <width>808</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="twGroups">
+    <property name="geometry">
+     <rect>
+      <x>317</x>
+      <y>34</y>
+      <width>491</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>828</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
